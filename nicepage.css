@@ -38230,9 +38230,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 322px;
-  height: 45px;
-  margin: 50px auto 0 0;
+  width: 442px;
+  height: 60px;
+  margin: 41px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -38241,11 +38241,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -40px 0 17px auto;
+  margin: -47px 0 17px auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -38254,79 +38255,46 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -40px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    margin-top: -47px;
   }
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: 295px;
+    height: 40px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: -27px;
+    margin-bottom: 21px;
+  }
+}
  .u-footer {
   background-image: none;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 95px;
+  min-height: 65px;
 }
 
 .u-footer .u-text-1 {
-  font-size: 1rem;
-  margin: 36px 513px 0 210px;
+  width: auto;
+  margin: 20px 0;
 }
 
 .u-footer .u-btn-1 {
   background-image: none;
-  border-style: solid;
-  margin: -27px auto 34px 536px;
-  padding: 0;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-text-1 {
-    width: 417px;
-    margin-right: 363px;
-    margin-left: 160px;
-  }
-
   .u-footer .u-btn-1 {
-    margin-top: -27px;
-    margin-left: 386px;
+    padding: 0;
   }
 }
-@media (max-width: 991px) {
-  .u-footer .u-text-1 {
-    margin-right: 198px;
-    margin-left: 105px;
-  }
 
-  .u-footer .u-btn-1 {
-    margin-left: 221px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-text-1 {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .u-footer .u-btn-1 {
-    margin-left: 62px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-text-1 {
-    width: 340px;
-    margin-right: 27px;
-    margin-left: -27px;
-  }
 
-  .u-footer .u-btn-1 {
-    margin-left: -27px;
-    margin-right: -27px;
-  }
-}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
